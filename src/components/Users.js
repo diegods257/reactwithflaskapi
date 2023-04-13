@@ -29,6 +29,7 @@ export const Users = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Permissions-Policy": "interest-cohort=()",
         },
         body: JSON.stringify({
           name,
@@ -43,6 +44,7 @@ export const Users = () => {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
+          "Permissions-Policy": "interest-cohort=()",
         },
         body: JSON.stringify({
           name,
