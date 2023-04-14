@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <div className=" p-4">
         <Routes>
-          <Route path="/" element={<Users />} />
+          <Route exact path="/" element={<Users />} />
         </Routes>
       </div>
     </Router>
